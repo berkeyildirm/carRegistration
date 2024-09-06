@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<div id="crud">
+  <style>
+  #crud a:hover{
+    color: green;
+ padding: 0.5rem;
+  }
+  #crud ul {
+ padding: 20px;
+  }
+  </style>
+  <nav style="position:relative; overflow:hidden; height:90vh; display:flex; justify-content:center;padding-top:13rem;">
+    <h3 style="padding-top:5rem;"> How can we help with ? </h3>
+<ul><a href="car.html">Add Car</a></li>
+<ul><a href="search.html">Search Car</a></li>
+<ul><a href="update.html">Update Car</a></li>
+<ul><a href="export.html">Export Car</a></li>
+  </nav>
+</div>
+<body style="background-image: url('redcar.jpg');">
+</body>
+<footer>
+  <p> ©2021 THE WELCOME ENTERTAINMENT, INC. ALL RIGHTS RESERVED by <strong> R.B.Y </strong> </p>
+</footer>
